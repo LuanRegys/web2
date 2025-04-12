@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explorador de Animes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎌 Explorador de Animes</h1>
+
+    <div class="controls">
+      <input type="text" id="searchInput" placeholder="Digite o nome de um anime...">
+      <select id="typeFilter">
+        <option value="">Todos os tipos</option>
+        <option value="tv">TV</option>
+        <option value="movie">Filme</option>
+        <option value="ova">OVA</option>
+      </select>
+      <button id="searchBtn">Buscar</button>
+  
+    </div>
+
+    <div id="waifuContainer"></div>
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
